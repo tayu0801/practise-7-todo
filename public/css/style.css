@@ -1,0 +1,169 @@
+body {
+    background-color: #2d197c;
+}
+.todo {
+    height: 98vh;
+    width: 98vw;
+    position: relative;
+}
+.todo__content {
+    background-color: #fff;
+    width: 50vw;
+    padding: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+}
+.todo__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.todo__title {
+    margin: 0 auto 20px 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+.todo__login-user {
+    margin-right: 10px;
+}
+.todo__logout-btn {
+    padding: 8px;
+    background: white;
+    border: 2px solid #cc0000;
+    border-radius: 5px 5px 5px 5px;
+    color: #cc0000;
+    font-weight: bold;
+}
+.todo__logout-btn:hover {
+    padding: 8px;
+    background: #cc0000;
+    border: 2px solid #cc0000;
+    border-radius: 5px 5px 5px 5px;
+    color: white;
+    font-weight: bold;
+}
+.todo_err-list {
+    margin: 10px 0;
+}
+.todo__create {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin: 10px 0px;
+}
+.todo__create-txt {
+    width: 75%;
+    padding: 10px;
+    border: 2px solid #e5e5e5;
+    border-radius: 5px 5px 5px 5px;
+}
+.todo__create-tag {
+    padding: 10px;
+    border: 2px solid #e5e5e5;
+    border-radius: 5px 5px 5px 5px;
+}
+.todo__create-btn {
+    padding: 8px;
+    background: white;
+    border: 2px solid #dc70fa;
+    border-radius: 5px 5px 5px 5px;
+    color: #dc70fa;
+    font-weight: bold;
+}
+.todo__create-btn:hover {
+    padding: 8px;
+    background: #dc70fa;
+    border: 2px solid #dc70fa;
+    border-radius: 5px 5px 5px 5px;
+    color: white;
+    font-weight: bold;
+}
+.todo__find-btn {
+    padding: 8px;
+    background: white;
+    border: 2px solid #7b8c08;
+    border-radius: 5px 5px 5px 5px;
+    color: #7b8c08;
+    font-weight: bold;
+}
+.todo__find-btn:hover {
+    padding: 8px;
+    background: #7b8c08;
+    border: 2px solid 7b8c08;
+    border-radius: 5px 5px 5px 5px;
+    color: white;
+    font-weight: bold;
+}
+.todo__table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 10px;
+    text-align: center;
+}
+.todo__table-task-name {
+    padding: 5px 0;
+    border: 2px solid #e5e5e5;
+    border-radius: 5px 5px 5px 5px;
+    width: 100%;
+}
+.todo__table-tag {
+    padding: 5px;
+    border: 2px solid #e5e5e5;
+    border-radius: 5px 5px 5px 5px;
+}
+.todo__table-update-btn {
+    padding: 8px;
+    background: white;
+    border: 3px solid #fa9770;
+    border-radius: 5px 5px 5px 5px;
+    color: #fa9770;
+    font-weight: bold;
+}
+.todo__table-update-btn:hover {
+    padding: 8px;
+    background: #fa9770;
+    border: 3px solid #fa9770;
+    border-radius: 5px 5px 5px 5px;
+    color: white;
+    font-weight: bold;
+}
+.todo__table-delete-btn {
+    padding: 8px;
+    background: white;
+    border: 3px solid #71fadc;
+    border-radius: 5px 5px 5px 5px;
+    color: #71fadc;
+    font-weight: bold;
+}
+.todo__table-delete-btn:hover {
+    padding: 8px;
+    background: #71fadc;
+    border: 3px solid #71fadc;
+    border-radius: 5px 5px 5px 5px;
+    color: white;
+    font-weight: bold;
+}
+.todo__back-btn {
+    padding: 8px;
+    background: white;
+    border: 3px solid #6d7170;
+    border-radius: 5px 5px 5px 5px;
+    color: #6d7170;
+    font-weight: bold;
+}
+.todo__back-btn:hover {
+    padding: 8px;
+    background: #6d7170;
+    border: 3px solid #6d7170;
+    border-radius: 5px 5px 5px 5px;
+    color: white;
+    font-weight: bold;
+}
